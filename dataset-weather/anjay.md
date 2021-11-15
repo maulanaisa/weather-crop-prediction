@@ -1,1 +1,0 @@
-Akulah sang prabu
