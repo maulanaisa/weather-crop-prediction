@@ -4,8 +4,7 @@ Created using Google Colab Platform to run training and export model into .h5 fo
 
 Weather data from 2 cities (Bandung and Bogor) collected to predict weather in respective city. Then, weather prediction works as input to crop predicition model to predict crop (rice and corn) production in that city. So in total there are 2 models involved.
 
-Weather data --> |forecast model| --> weather prediction
-weather prediciton --> |crop prediction model| --> crop production
+Weather data --> |forecast model| --> weather prediction --> |crop prediction model| --> crop production
 
 ## Note
 For this project, datasets is stored in Google Drive folder (make it easier to manage on google colab). You can store it on your local computer if you choose to run it using Jupyter. Don't forget to change directory's line in the notebook.
